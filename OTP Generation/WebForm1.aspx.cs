@@ -22,9 +22,9 @@ namespace OTP_Generation
             int otp = Convert.ToInt32(r);
             string message = "Hello  Your Account has been debited by 10000rs And OTP is";
             string senderid = "Default";
-            string apikey = "278875Aw0wgQG8k7qf5ceeb057";
+            string apikey = "Your Key";
 
-          string url = "https://control.msg91.com/api/sendotp.php?otp=" + otp + "&sender=" + senderid + "&message=" + message+otp+ "&mobile=" + num + "&authkey=" + apikey;
+          string url = "linkorurl" + otp + "&sender=" + senderid + "&message=" + message+otp+ "&mobile=" + num + "&authkey=" + apikey;
 
             var client = new RestClient(url);
             var request = new RestRequest(Method.POST);
